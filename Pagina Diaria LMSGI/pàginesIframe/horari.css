@@ -1,0 +1,98 @@
+
+/*taula general de l'horari*/
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #a396f7;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+/*capçelera de l'horari*/
+caption {
+    font-size: 1.8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+
+    letter-spacing: 8px;
+    word-spacing: 10px;
+
+    color: rgb(239, 172, 251);
+    background-color: #3a40b0;
+    
+}
+
+/*data i header de la taula*/
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/*primera fila de l'horari "(capçelera)"*/
+th {
+    background-color: #5056a8;
+    font-size: 1.2em;
+    
+}
+
+
+
+
+.institut {
+    background-color: #8cdb8f;
+}
+
+.reforçProgramacio {
+    background-color: #8abee8;
+}
+
+.classesDePiano {
+    background-color: #eccf78;
+}
+
+.llevarseIEsmorçar {
+    background-color: #d6846b;
+}
+
+.tempsLliure {
+    background-color: #ca77d9;
+}
+
+.ferDeures {
+    background-color: #6de2d6;
+}
+
+.estudiar {
+    background-color: #e26890;
+}
+
+.sopar {
+    background-color: #607D8B;
+}
+
+.dinar {
+    background-color: #90685a;
+}
+
+.dormir {
+    background-color: rgb(219, 86, 86);
+}
+
+.tempsDOci {
+    background-color: #4d4dc4;
+}
+
+.meditacio {
+    background-color: #dfc185;
+}
+
+.sortirOQuedar {
+    background-color: #ad82d7
+
+}
+

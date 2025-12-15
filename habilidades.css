@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('fuentes/Minecraft.ttf') format(truetype);
+}
+
+body {
+    margin: 0;
+
+    font-family: 'minecraft', sans-serif;
+    background: url('img/Dirt_background_BE2.webp') no-repeat center fixed;
+}
+
+
+.btn-volver {
+  position: fixed;
+  top: 20px;      
+  left: 20px;      
+  
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.6); 
+  text-decoration: none; 
+  transition: all 0.3s;
+  
+}
+
+.btn-volver:hover {
+  color: rgba(255, 255, 255, 1); 
+}
+
+
+
+.habilidades {
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.habilidades h2 {
+    font-size: 2em;
+    color:rgba(163, 225, 112);
+    text-shadow: 2px 2px #054b00;
+    margin-bottom: 40px;
+}
+
+.caja-habilidades-espaciado {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.caja-habilidades {
+    background: rgba(122, 122, 122, 0.5);
+    padding: 15px;
+    border: 2px solid #545454;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.2),
+        inset -2px -2px 0 rgba(0, 0, 0, 0.6);
+}
+
+.caja-habilidades img {
+    width: 45px;
+    height: 45px;
+    
+}
+
+.caja-habilidades p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #ffaa00;
+}
+
+
+.xp-bar {
+    width: 100%;
+    height: 6px;
+    background:  rgba(0, 0, 0, 0.2);
+    border: 2px solid #000;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.xp {
+    height: 100%;
+    background: #55ff55;
+    
+    box-shadow: inset 0px 2px 0 rgba(100, 153, 57),
+        inset -0px -2px 0 rgba(100, 153, 57);
+   
+        
+}
+
+
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;  
+}
+
+
+.footer-col{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.footer-col h3 {
+  margin-bottom: 12px;
+  color: #ffaa00;
+  text-shadow: 2px 2px #000;
+  font-size: 1.3em;
+  
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.footer-col ul li {
+  margin: 6px 0;
+  color: #ddd;
+}
+
+
+
+

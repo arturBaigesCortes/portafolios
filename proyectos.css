@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('fuentes/Minecraft.ttf') format(truetype);
+}
+
+.btn-volver {
+  position: fixed;
+  top: 20px;      
+  left: 20px;      
+  
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.6); 
+  text-decoration: none; 
+  transition: all 0.3s;
+  
+}
+
+.btn-volver:hover {
+  color: rgba(255, 255, 255, 1); 
+}
+
+body{
+    margin: 0;
+
+    font-family: 'minecraft', sans-serif;
+    background: url('img/madera.jpg') repeat center fixed;
+}
+
+
+
+.proyectos {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "minecraft", sans-serif;
+
+}
+
+.proyectos h2 {
+  font-size: 2em;
+  color: #ffaa00;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 40px;
+}
+
+.marco p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #ff7373;
+  text-shadow: 2px 2px #393939;
+}
+
+.marcos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.marco {
+  background: #8b5a2b; 
+  border: 4px solid #3a2a1a;
+  border-radius: 6px;
+  
+
+
+}
+
+.marco img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  image-rendering: pixelated;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+
+.marco:hover img {
+  transform: scale(1.08);
+  border: 3px solid #fff;
+}

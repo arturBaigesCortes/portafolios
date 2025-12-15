@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('fuentes/Minecraft.ttf') format(truetype);
+}
+@font-face {
+  font-family: 'minecraftTitulo1';
+  src: url('fuentes/Minecrafter.Alt.ttf') format(truetype);
+}
+@font-face {
+  font-family: 'minecraftTitulo2';
+  src: url('fuentes/Minecrafter.Reg.ttf') format(truetype);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('img/minecraftMundo2-ezgif.com-reverse.gif') no-repeat center center fixed;
+  
+  background-size: cover;
+  font-family: "minecraftTitulo1";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.encabezado {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+  
+  
+}
+
+.main-menu {
+  background: rgba(199, 199, 199, 0.6);
+  
+  padding: 30px;
+  text-align: center;
+  
+  width: 550px;
+  box-shadow: 0 0 20px #000;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 3em;
+  color: #c2c2c2;
+
+  text-shadow: 4px 4px 0px #000;
+
+}
+
+.caja{
+    display: block;
+}
+
+h2 {
+
+  font-size: 1.1em;
+  font-family: "minecraft";
+  color: #4c4c4c;
+  text-decoration: none;
+
+}
+
+.iconoSteve {
+  width: 70px;
+  margin-bottom: 20px;
+
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.menu-buttons button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  font-size: 1em;
+  font-family: "minecraft";
+  background-color: #c6c6c6;
+  border: 2px solid #131313;
+  border-radius: 2px;
+
+box-shadow: 
+  inset 2px 2px 0 rgba(0, 0, 0, 0.6),   
+  inset -2px -2px 0 rgba(255, 255, 255, 0.4); 
+
+  color: #4c4c4c;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.menu-buttons button:hover {
+  background-color: #1f8405;
+  border-color: #f2ffeb;
+  transform: scale(1.03);
+  color: #efffe1
+}
+
+

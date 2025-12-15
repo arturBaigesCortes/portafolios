@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'minecraft';
+  src: url('fuentes/Minecraft.ttf') format(truetype);
+}
+@font-face {
+  font-family: 'minecraftTitulo1';
+  src: url('fuentes/Minecrafter.Alt.ttf') format(truetype);
+}
+
+.btn-volver {
+  position: fixed;
+  top: 20px;      
+  left: 20px;      
+  
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.6); 
+  text-decoration: none; 
+  transition: all 0.3s;
+  
+}
+
+.btn-volver:hover {
+  color: rgba(255, 255, 255, 1); 
+}
+
+
+body {
+  margin: 0;
+  
+  height: 100vh;
+  font-family: 'minecraft', sans-serif;
+  background: url('img/aldea.jpg') no-repeat center fixed;
+}
+
+
+.caja-presentacion {
+  display: block;
+  width: 40%;
+  padding: 20px;
+
+  font-size: 1em;
+  font-family: "minecraft", sans-serif;
+  background-color: rgba(198, 198, 198, 0.6);
+  border: 2px solid rgba(19, 19, 19, 0.6);
+  border-radius: 8px;
+
+    position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 5%;
+    
+
+box-shadow: 
+  inset 2px 2px 0 rgba(0, 0, 0, 0.4),   
+  inset -2px -2px 0 rgba(255, 255, 255, 0.3); 
+
+  color: #4c4c4c;
+
+  transition: all 0.3s;
+  
+  
+}
+
+.caja-presentacion:hover{
+    background-color: rgba(198, 198, 198);
+    border: 2px solid rgba(19, 19, 19);
+
+box-shadow: 
+  inset 2px 2px 0 rgba(0, 0, 0, 0.6),   
+  inset -2px -2px 0 rgba(255, 255, 255, 0.4); 
+
+}
+
+
+.caja-presentacion h2 {
+  margin-top: 0;
+  color: #61b161; 
+  text-shadow: 2px 2px #000;
+  font-family: 'minecraftTitulo1';
+}
+
+.rojo {
+  color: #a73131;
+  font-weight: bold;
+}
+
+
+.burbuja-texto {
+  position: fixed;
+
+  
+  bottom: 0px;
+  width: 100%;
+  margin-left: 0%;
+  max-width: 75%;
+
+
+  
+  background-color: #eeeeee;
+  border: 2px solid #333;
+  padding: 5px 20px;
+  border-radius: 12px;
+  border-top-right-radius: 0;
+  
+
+ 
+  box-shadow: 
+    inset -2px -2px 0 rgba(0, 0, 0, 0.5),
+    inset 2px 2px 0 rgba(255, 255, 255, 0.5);
+
+  text-align: left;
+  color: #111;
+  font-size: 1em;
+}
+
+
+
+.container-aldeano {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 250px;       
+  height: 35%;          
+  
+}
+
+.aldeano {
+  width: 80%;      
+  height: auto;
+  position: relative;
+ 
+}
+
+
+
+
+
+
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h1 { 
+	position: relative; 
+	float: left;
+	
+	
+	font-size: 1em;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #eeeeee;
+    
+    border-left: 1px solid #000;
+    animation: escribir 3s steps(109) alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+
+
+

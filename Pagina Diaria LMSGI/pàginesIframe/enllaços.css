@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+
+.posicionCajas {
+    display: flex;
+    justify-content: center;
+}
+
+.cajaLink {
+    background-color: #eb99e6;
+
+    /*fuente letra*/
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #34495e;
+    font-weight: bold;
+    text-align: center;
+
+    /*caja*/
+    display: block;
+    border-radius: 15px;
+    padding: 20px;
+
+    /*para separar las cajas*/
+    margin-right: 20px;
+}
+
+.cajaLink:hover {
+    background-color: #d36df2;
+    transition: all 0.5s;
+    box-shadow: 5px 2px 5px rgb(0, 44, 71);
+}
+
+.cajaLink img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+

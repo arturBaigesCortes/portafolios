@@ -1,0 +1,94 @@
+h2{
+  color: blueviolet;
+}
+
+h4{
+  color: rgb(167, 35, 17);
+}
+
+
+/*links y caja de los links bookmarks que los centra*/
+.enllaçosDiv {
+  padding-left: 2em;
+  margin: auto;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+
+  border: 2px solid rgb(85, 144, 212);
+  padding: 7px 15px;
+  border-radius: 2px;
+
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+}
+
+a:hover{
+  background-color: rgb(240, 125, 219);
+  color: white;
+}
+
+a:active {
+  background-color: rgb(172, 43, 148);
+  color: white;
+}
+
+
+
+
+/*clase que engloba totes les llistes*/
+.llista-tasques {
+  width: 70%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Estil per a les listes ordenades */
+.urgent {
+  background-color: #f988ef;
+  padding: 10px 20px;
+ 
+}
+
+.noUrgent {
+  background-color: #8fdbfe;
+  padding: 10px 20px;
+  
+}
+
+
+/*estil de la llista i imatge*/
+.llista-casa li {
+  list-style: url('imatges/iconaLlistaDesordenada.png');
+  padding: 3px 0px 0px 5px;
+  
+}
+
+/*llista ordenada extra canviant ordres i variant, el margin auto permet juntar els cuadres de les llistes 
+també reinicio els paddings top i bottom para que queden juntos*/
+.plansEstiu {
+
+  margin: auto;
+  padding: 0;
+  
+}
+
+/*modifico un div per que estigui espaiat el requadre com a la resta sense que es separi*/
+.plansEstiuDiv{
+  background-color: #eff988;
+  padding: 10px 20px;
+}
+
+/*centro la imagen y le pongo un tamaño fijo*/
+img{
+  display: block;
+  margin: auto;
+
+  width: 80%;
+}
+
