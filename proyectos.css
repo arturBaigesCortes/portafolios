@@ -77,5 +77,39 @@ body{
 
 .marco:hover img {
   transform: scale(1.08);
-  border: 3px solid #fff;
+  border: 3px solid #ffcb64;
+}
+
+
+.filtros{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.filtro-btn{
+  font-family: "minecraft", sans-serif;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 3px solid #3a2a1a;
+  background: #8b5a2b;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  transition: transform 0.15s, filter 0.15s;
+}
+
+.filtro-btn:hover{
+  transform: scale(1.03);
+  filter: brightness(1.08);
+}
+
+.filtro-btn.active{
+  outline: 3px solid #ffaa00;
+}
+
+.marco.hidden{
+  display: none;
 }

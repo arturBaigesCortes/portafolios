@@ -3,6 +3,21 @@
   src: url('fuentes/Minecraft.ttf') format(truetype);
 }
 
+.btn-volver {
+  position: fixed;
+  top: 20px;      
+  left: 20px;      
+  
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.6); 
+  text-decoration: none; 
+  transition: all 0.3s;
+  
+}
+
+.btn-volver:hover {
+  color: rgba(255, 255, 255, 1); 
+}
 
 
 body {
